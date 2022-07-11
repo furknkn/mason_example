@@ -1,0 +1,14 @@
+name: clean_acrhitecture
+description: A new brick created with the Mason CLI.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: structer name
+    default: feature
+    prompt: what is the name of the structure ?
